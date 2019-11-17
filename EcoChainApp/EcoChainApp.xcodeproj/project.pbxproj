@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69F7F356238159640008589D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7F355238159640008589D /* AppDelegate.swift */; };
+		69F7F358238159640008589D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7F357238159640008589D /* SceneDelegate.swift */; };
+		69F7F35A238159640008589D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7F359238159640008589D /* ViewController.swift */; };
+		69F7F35D238159640008589D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F7F35B238159640008589D /* Main.storyboard */; };
+		69F7F35F2381596A0008589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F7F35E2381596A0008589D /* Assets.xcassets */; };
+		69F7F3622381596A0008589D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F7F3602381596A0008589D /* LaunchScreen.storyboard */; };
+		69F7F36D2381596A0008589D /* EcoChainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7F36C2381596A0008589D /* EcoChainAppTests.swift */; };
+		69F7F3782381596A0008589D /* EcoChainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7F3772381596A0008589D /* EcoChainAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69F7F3692381596A0008589D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F7F34A238159640008589D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F7F351238159640008589D;
+			remoteInfo = EcoChainApp;
+		};
+		69F7F3742381596A0008589D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F7F34A238159640008589D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F7F351238159640008589D;
+			remoteInfo = EcoChainApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69F7F352238159640008589D /* EcoChainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoChainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F7F355238159640008589D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69F7F357238159640008589D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69F7F359238159640008589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69F7F35C238159640008589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69F7F35E2381596A0008589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69F7F3612381596A0008589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69F7F3632381596A0008589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F7F3682381596A0008589D /* EcoChainAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoChainAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F7F36C2381596A0008589D /* EcoChainAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoChainAppTests.swift; sourceTree = "<group>"; };
+		69F7F36E2381596A0008589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F7F3732381596A0008589D /* EcoChainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoChainAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F7F3772381596A0008589D /* EcoChainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoChainAppUITests.swift; sourceTree = "<group>"; };
+		69F7F3792381596A0008589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F7F34F238159640008589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7F3652381596A0008589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7F3702381596A0008589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F7F349238159640008589D = {
+			isa = PBXGroup;
+			children = (
+				69F7F354238159640008589D /* EcoChainApp */,
+				69F7F36B2381596A0008589D /* EcoChainAppTests */,
+				69F7F3762381596A0008589D /* EcoChainAppUITests */,
+				69F7F353238159640008589D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69F7F353238159640008589D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F7F352238159640008589D /* EcoChainApp.app */,
+				69F7F3682381596A0008589D /* EcoChainAppTests.xctest */,
+				69F7F3732381596A0008589D /* EcoChainAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F7F354238159640008589D /* EcoChainApp */ = {
+			isa = PBXGroup;
+			children = (
+				69F7F355238159640008589D /* AppDelegate.swift */,
+				69F7F357238159640008589D /* SceneDelegate.swift */,
+				69F7F359238159640008589D /* ViewController.swift */,
+				69F7F35B238159640008589D /* Main.storyboard */,
+				69F7F35E2381596A0008589D /* Assets.xcassets */,
+				69F7F3602381596A0008589D /* LaunchScreen.storyboard */,
+				69F7F3632381596A0008589D /* Info.plist */,
+			);
+			path = EcoChainApp;
+			sourceTree = "<group>";
+		};
+		69F7F36B2381596A0008589D /* EcoChainAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				69F7F36C2381596A0008589D /* EcoChainAppTests.swift */,
+				69F7F36E2381596A0008589D /* Info.plist */,
+			);
+			path = EcoChainAppTests;
+			sourceTree = "<group>";
+		};
+		69F7F3762381596A0008589D /* EcoChainAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69F7F3772381596A0008589D /* EcoChainAppUITests.swift */,
+				69F7F3792381596A0008589D /* Info.plist */,
+			);
+			path = EcoChainAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69F7F351238159640008589D /* EcoChainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F7F37C2381596A0008589D /* Build configuration list for PBXNativeTarget "EcoChainApp" */;
+			buildPhases = (
+				69F7F34E238159640008589D /* Sources */,
+				69F7F34F238159640008589D /* Frameworks */,
+				69F7F350238159640008589D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoChainApp;
+			productName = EcoChainApp;
+			productReference = 69F7F352238159640008589D /* EcoChainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69F7F3672381596A0008589D /* EcoChainAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F7F37F2381596A0008589D /* Build configuration list for PBXNativeTarget "EcoChainAppTests" */;
+			buildPhases = (
+				69F7F3642381596A0008589D /* Sources */,
+				69F7F3652381596A0008589D /* Frameworks */,
+				69F7F3662381596A0008589D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F7F36A2381596A0008589D /* PBXTargetDependency */,
+			);
+			name = EcoChainAppTests;
+			productName = EcoChainAppTests;
+			productReference = 69F7F3682381596A0008589D /* EcoChainAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69F7F3722381596A0008589D /* EcoChainAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F7F3822381596A0008589D /* Build configuration list for PBXNativeTarget "EcoChainAppUITests" */;
+			buildPhases = (
+				69F7F36F2381596A0008589D /* Sources */,
+				69F7F3702381596A0008589D /* Frameworks */,
+				69F7F3712381596A0008589D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F7F3752381596A0008589D /* PBXTargetDependency */,
+			);
+			name = EcoChainAppUITests;
+			productName = EcoChainAppUITests;
+			productReference = 69F7F3732381596A0008589D /* EcoChainAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F7F34A238159640008589D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ванурин Алексей";
+				TargetAttributes = {
+					69F7F351238159640008589D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					69F7F3672381596A0008589D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 69F7F351238159640008589D;
+					};
+					69F7F3722381596A0008589D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 69F7F351238159640008589D;
+					};
+				};
+			};
+			buildConfigurationList = 69F7F34D238159640008589D /* Build configuration list for PBXProject "EcoChainApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69F7F349238159640008589D;
+			productRefGroup = 69F7F353238159640008589D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69F7F351238159640008589D /* EcoChainApp */,
+				69F7F3672381596A0008589D /* EcoChainAppTests */,
+				69F7F3722381596A0008589D /* EcoChainAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F7F350238159640008589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F7F3622381596A0008589D /* LaunchScreen.storyboard in Resources */,
+				69F7F35F2381596A0008589D /* Assets.xcassets in Resources */,
+				69F7F35D238159640008589D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7F3662381596A0008589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7F3712381596A0008589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F7F34E238159640008589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F7F35A238159640008589D /* ViewController.swift in Sources */,
+				69F7F356238159640008589D /* AppDelegate.swift in Sources */,
+				69F7F358238159640008589D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7F3642381596A0008589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F7F36D2381596A0008589D /* EcoChainAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F7F36F2381596A0008589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F7F3782381596A0008589D /* EcoChainAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69F7F36A2381596A0008589D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F7F351238159640008589D /* EcoChainApp */;
+			targetProxy = 69F7F3692381596A0008589D /* PBXContainerItemProxy */;
+		};
+		69F7F3752381596A0008589D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F7F351238159640008589D /* EcoChainApp */;
+			targetProxy = 69F7F3742381596A0008589D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69F7F35B238159640008589D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F7F35C238159640008589D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69F7F3602381596A0008589D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F7F3612381596A0008589D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69F7F37A2381596A0008589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69F7F37B2381596A0008589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F7F37D2381596A0008589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUYBNY3966;
+				INFOPLIST_FILE = EcoChainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COS-HT.EcoChainApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69F7F37E2381596A0008589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUYBNY3966;
+				INFOPLIST_FILE = EcoChainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COS-HT.EcoChainApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69F7F3802381596A0008589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUYBNY3966;
+				INFOPLIST_FILE = EcoChainAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COS-HT.EcoChainAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoChainApp.app/EcoChainApp";
+			};
+			name = Debug;
+		};
+		69F7F3812381596A0008589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUYBNY3966;
+				INFOPLIST_FILE = EcoChainAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COS-HT.EcoChainAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoChainApp.app/EcoChainApp";
+			};
+			name = Release;
+		};
+		69F7F3832381596A0008589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUYBNY3966;
+				INFOPLIST_FILE = EcoChainAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COS-HT.EcoChainAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoChainApp;
+			};
+			name = Debug;
+		};
+		69F7F3842381596A0008589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUYBNY3966;
+				INFOPLIST_FILE = EcoChainAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COS-HT.EcoChainAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoChainApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F7F34D238159640008589D /* Build configuration list for PBXProject "EcoChainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F7F37A2381596A0008589D /* Debug */,
+				69F7F37B2381596A0008589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F7F37C2381596A0008589D /* Build configuration list for PBXNativeTarget "EcoChainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F7F37D2381596A0008589D /* Debug */,
+				69F7F37E2381596A0008589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F7F37F2381596A0008589D /* Build configuration list for PBXNativeTarget "EcoChainAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F7F3802381596A0008589D /* Debug */,
+				69F7F3812381596A0008589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F7F3822381596A0008589D /* Build configuration list for PBXNativeTarget "EcoChainAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F7F3832381596A0008589D /* Debug */,
+				69F7F3842381596A0008589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69F7F34A238159640008589D /* Project object */;
+}
